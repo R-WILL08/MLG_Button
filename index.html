@@ -10,11 +10,23 @@
     </header>
 </head>
 <body>
+    <div id="raspberry status">
+        <p>Raspberry Pi Status: <span id="statusText">Disconnected</span></p>
+    </div>
     <div id="soundboard">
         <button id="trigger">
             <img src="button_image.png" alt="Sound Button">
         </button>
+        <div id="soundselect" class="side-list" role="navigation" aria-label="Sound list">
+            <ul>
+                <li><button type="button" class="sound-item" data-sound="sound1.mp3">Sound 1</button></li>
+                <li><button type="button" class="sound-item" data-sound="sound2.mp3">Sound 2</button></li>
+                <li><button type="button" class="sound-item" data-sound="sound3.mp3">Sound 3</button></li>
+                
+            </ul>
+        </div>
     </div>
+
 </body>
 <footer>
     <p>© 2024 Sound Switch. All rights reserved.</p>
