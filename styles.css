@@ -1,12 +1,19 @@
 /* styles.css */
 
-header {
+header h1{
     background: linear-gradient(30deg, #ff0000 0%, #0033ff 100%);    color: white;
     padding: 4px 0;
     text-align: center;
     
 }
 
+#raspberry\ status {
+    text-align: right;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    font-size: 18px;
+}
 
 
 footer {
@@ -48,7 +55,7 @@ body {
 }
 
 img {
-    /* width: 100px;
-    height: auto; */
-    float: right;
+    width: 100px;
+    height: auto;
+    float: left;
 }
